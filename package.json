@@ -1,0 +1,17 @@
+{
+  "name": "fitnessapp",
+  "version": "1.0.0",
+  "description": "An app to track fitness goals",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Alessio Martello",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.4.0"
+  }
+}
