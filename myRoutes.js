@@ -19,6 +19,7 @@ router.get("/exercises", (req, res) => {
       console.error("Error executing the query: ", err);
       return res.status(500).json({ error: "Error executing the query" });
     }
+    console.log("pinged")
 
     return res.json(results);
   });
